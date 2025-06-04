@@ -1,15 +1,6 @@
 let frase="";
-let imagen1;  
-let imagen2;  
-let imagen3;  
-let imagen4; 
-
-function preload (){
-  imagen1=loadImage ("assets/tca1.jpg");
-  imagen2=loadImage ("assets/tca1.jpg");
-  imagen3=loadImage ("assets/tca1.jpg");
-  imagen4=loadImage ("assets/tca1.jpg");
-}
+let currentImage = null;
+let imgY, imgU, imgI, imgO;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -21,7 +12,17 @@ function draw() {
   text (frase, 100, 250);
     textSize(15);
     fill(255,255,255);
-  image(imagen1, 250,30);
+    if (currentImage !== null) {
+    imageMode(CENTER);
+    image(currentImage, width / 2, height / 2);
+}
+}
+
+function preload() {
+  imgY = loadImage('assets/tca1.jpg');
+  imgU = loadImage('assets/tca2.jpg');
+  imgI = loadImage('assets/tca3.jpg');
+  imgO = loadImage('assets/tca4.jpg');
 }
 
 function keyPressed() {
@@ -39,17 +40,17 @@ frase= "NO ES FELICIDAD"
  }
   if (key=='t'){
 frase= "SI HAY SEÑALES"
- }
-  if (key=='y'){
-imagen1= "/assets/tca1.jpg"
-}
-if (key=='u'){
-imagen2= "/assets/tca2.jpg"
-}
-if (key=='i'){
-imagen3= "/assets/tca3.jpg"
-}
-if (key=='o'){
-imagen4= "/assets/tca4.jpg"
+ if (key === 'y') {
+    currentImage = imgY;
+  }
+  if (key === 'u') {
+    currentImage = imgU;
+  }
+  if (key === 'i') {
+    currentImage = imgI;
+  }
+  if (key === 'o') {
+    currentImage = imgO;
+  }
 }
 }
