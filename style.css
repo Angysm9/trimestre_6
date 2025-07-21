@@ -1,5 +1,49 @@
-body{background-color: rgb(0, 0, 0);}
-h1{color: rgb(255, 0, 0);}
-h2{color: rgb(99, 99, 99);}
-p{color: rgb(255, 255, 255);}
-.central{text-align: center; color: rgb(238, 226, 55);}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-family: 'Times new roman';
+    text-align: center;
+    font-size: 78px;
+
+}
+
+h2{
+    color: rgb(87, 87, 87);
+    font-family: 'Times new roman';
+    text-align: center;
+    font-size: 40px;
+
+}
+
+h3{
+    color: rgb(207, 147, 147);
+    font-family: 'Times new roman';
+    text-align: center;
+    font-size: 35px;
+
+}
+
+h4{
+    color: rgb(209, 209, 209);
+    font-family: 'Times new roman';
+    text-align: center;
+    font-size: 30px;
+
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 37px;
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+div{
+    margin: 35px;
+    color: rgb(218, 135, 135);
+    font-family: 'Times new roman';
+}

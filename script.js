@@ -1,1 +1,1 @@
-console.log ("Aqui esta la consola")
+console.log ("Obra artística interactiva")
