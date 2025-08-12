@@ -1,5 +1,12 @@
 body{
     background-color: rgb(65, 0, 0);
+     margin: 0;
+    font-family: sans-serif;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
 }
 
 h1{
@@ -59,4 +66,10 @@ div{
     margin: 35px;
     color: rgb(218, 135, 135);
     font-family: 'Times new roman';
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Texto más pequeño en móvil */
+    }
 }
