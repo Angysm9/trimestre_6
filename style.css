@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(65, 0, 0);
+    background-color: rgb(255, 221, 149);
      margin: 0;
     font-family: sans-serif;
 }
@@ -10,7 +10,7 @@ img, video {
 }
 
 h1{
-    color: rgba(255, 255, 255, 0.925);
+    color: rgba(0, 0, 0, 0.925);
     font-family: 'Times new roman';
     text-align: center;
     font-size: 78px;
@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-    color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
     font-family: 'Times new roman';
     text-align: justify;
     font-size: 40px;
@@ -27,7 +27,7 @@ h2{
 }
 
 h3{
-    color: rgb(207, 147, 147);
+    color: rgb(0, 0, 0);
     font-family: 'Times new roman';
     text-align: justify;
     font-size: 35px;
@@ -36,7 +36,7 @@ h3{
 }
 
 h4{
-    color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
     font-family: 'Times new roman';
     text-align: justify;
     font-size: 30px;
@@ -45,7 +45,8 @@ h4{
 }
 
 p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Times new roman';
     font-size: 37px;
     text-align: justify;
     line-height: 1.5;
@@ -54,7 +55,8 @@ p{
 }
 
 h5{
-    color: rgb(207, 147, 147);
+    color: rgb(0, 0, 0);
+    font-family: 'Times new roman';
     font-size: 37px;
     text-align: justify;
     line-height: 1.5;
@@ -64,12 +66,12 @@ h5{
 
 div{
     margin: 35px;
-    color: rgb(218, 135, 135);
+    color: rgb(0, 0, 0);
     font-family: 'Times new roman';
 }
 
 @media (max-width: 768px) {
     body {
-        font-size: 16px; /* Texto más pequeño en móvil */
+        font-size: 16px; 
     }
 }
