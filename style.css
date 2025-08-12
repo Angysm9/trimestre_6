@@ -6,14 +6,18 @@ body{
 
 img, video {
     max-width: 100%;
-    height: auto;
+    width: 300px;      
+    height: 200px;      
+    object-fit: cover;  
+    margin: 5px;       
+    display: inline-block;
 }
 
 h1{
     color: rgba(0, 0, 0, 0.925);
     font-family: 'Times new roman';
     text-align: center;
-    font-size: 78px;
+    font-size: 58px;
 
 }
 
@@ -21,7 +25,7 @@ h2{
     color: rgb(0, 0, 0);
     font-family: 'Times new roman';
     text-align: justify;
-    font-size: 40px;
+    font-size: 30px;
     margin: 35px;
 
 }
@@ -30,7 +34,7 @@ h3{
     color: rgb(0, 0, 0);
     font-family: 'Times new roman';
     text-align: justify;
-    font-size: 35px;
+    font-size: 30px;
     margin: 35px;
 
 }
@@ -47,7 +51,7 @@ h4{
 p{
     color: rgb(0, 0, 0);
     font-family: 'Times new roman';
-    font-size: 37px;
+    font-size: 30px;
     text-align: justify;
     line-height: 1.5;
     margin: 35px;
@@ -57,7 +61,7 @@ p{
 h5{
     color: rgb(0, 0, 0);
     font-family: 'Times new roman';
-    font-size: 37px;
+    font-size: 30px;
     text-align: justify;
     line-height: 1.5;
     margin: 35px;
@@ -74,4 +78,11 @@ div{
     body {
         font-size: 16px; 
     }
+}
+
+a {
+    font-family: 'Times new roman';
+    font-size: 35px;            
+    color: #ff0000;                 
+    text-decoration: none;            
 }
